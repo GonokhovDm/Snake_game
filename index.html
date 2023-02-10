@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nes.css/css/nes.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<title>Tetris</title>
+</head>
+
+<body>
+	<div class="options">
+		<div class="buttons">
+			<button type="button" class="nes-btn is-success" onclick="startFunction()">Start</button>
+			<button type="button" class="nes-btn is-disabled">Pause</button>
+		</div>
+		<div class="results">
+			<p id="level">Level : 0</p>
+			<p id="your-score">Your score : 0</p>
+			<p id="top-score">Top score : 0</p>
+		</div>
+	</div>
+	<canvas width="320" height="640" id="game"></canvas>
+	<!-- <canvas width="320" height="100" id="score"></canvas> -->
+	<script src="script.js"></script>
+</body>
+
+</html>

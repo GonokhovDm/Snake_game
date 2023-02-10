@@ -1,0 +1,35 @@
+html,
+body {
+	font-family: 'Press Start 2P', cursive;
+	color: #fff;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	position: relative;
+	background: #212529 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	color: #fff;
+}
+
+.options {
+	height: 640px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.buttons {
+	margin-bottom: 50px;
+}
+
+#game {
+	border: 1px solid white;
+}
